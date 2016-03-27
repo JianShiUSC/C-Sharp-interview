@@ -27,3 +27,7 @@ namespace Example01
 		}
 	}
 }
+
+//Class1's staticStr: Class
+//tmpObj1's notstaticStr: tmpObj1
+//tmpObj2's notstaticStr: tmpObj2
