@@ -34,14 +34,8 @@ namespace Example04
         private String attribute;
         public override String Attribute
         {
-            get
-            {
-                return attribute;
-            }
-            set
-            {
-                attribute = value;
-            }
+            get{ return attribute; }
+            set{ attribute = value; }
         }
         public override void Function(String value)
         {
@@ -56,10 +50,7 @@ namespace Example04
 
         public override Char this[int Index]
         {
-            get
-            {
-                return attribute[Index];
-            }
+            get{ return attribute[Index]; }
         }
     }
     #endregion
